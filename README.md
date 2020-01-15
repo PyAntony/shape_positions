@@ -47,6 +47,7 @@ There are 3 ways to instantiate rectangles:
 - pass a Point and Dimensions class (easiest way).
 - passing 4 Points.
 - passing 4 tuples.  
+
 For the last 2 you must follow the correct order (positions) specified in the comment bellow:
 ```scala
   val r1 = Rectangle(Point(10, 12), Dimensions(12, 15))
