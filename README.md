@@ -73,7 +73,7 @@ There is a trait (interface) that declares our system in the traits.scala file:
 ```
 We can extend this trait to create an interpreter (an specific implementation) for any Shape we want. 
 Shapes also have a hierarchy, for example, Rectangle extends Quadrilateral and Quadrilateral extends Shape. 
-Project include multiple test cases (for Rectangle and Circle) in the test directory. 
+Project include multiple test cases (for Rectangle and Circle) in the src/test/scala directory. 
 
 
 
