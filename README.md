@@ -61,7 +61,7 @@ For the last 2 you must follow the correct order (positions) specified in the co
 
 Valid rectangles have 90-degrees angles and only vertical or horizontal sides; points should be aligned correctly.
 To determine the position of the rectangles you can use the RectangleAnalyzer class or 
-use the traditional dot notation. Examples:
+use the traditional ***dot notation***. Examples:
 ```scala
   val rectangle1 = Rectangle(Point(4, 5), Dimensions(4, 8))
   val rectangle2 = Rectangle(Point(0, 1), Dimensions(10, 12))
