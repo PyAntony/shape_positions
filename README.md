@@ -1,6 +1,6 @@
 # Shape Positions
 
-Package to calculate positions of 2 shapes in a Cartesian plane. Shapes supported: rectangles 
+Library to calculate positions of 2 shapes in a Cartesian plane. Shapes supported: rectangles 
 and circles. Positions include:
 - containment: one shape containes the other.
 - intersection: shapes overlap (no containment).
