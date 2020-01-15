@@ -14,10 +14,10 @@ object TestCircle {
     assertInstance(1) {
       Circle(Point(2, 4), 4)
     }
-    assertInstance(1) {
+    assertInstance(2) {
       Circle(Point(-100, -59), 700)
     }
-    assertInstance(1, assertVal = false) {
+    assertInstance(3, assertVal = false) {
       Circle(Point(2, 2), 0)
     }
 
