@@ -14,7 +14,7 @@ and Circle. Positions include:
 
 ### Usage
 To generate your own jar file clone this repo and run "sbt package" in root directory (assumes you have sbt installed). 
-If you want to download the jar file directly [click here](https://cc6e750869d1bf4c575d93c62ceaffbd880f62fdc70d92005eedad24f5865.s3.amazonaws.com/rectangles2_2.13-0.1.jar)  
+If you want to download the jar file directly [-> click here <-](https://cc6e750869d1bf4c575d93c62ceaffbd880f62fdc70d92005eedad24f5865.s3.amazonaws.com/rectangles2_2.13-0.1.jar)  
 
 You can include that jar as an external library in your Scala/Java projects. Don't forget to 
 add the dependency in your classpath (If you are using sbt you can just paste the jar file in the lib directory). 
