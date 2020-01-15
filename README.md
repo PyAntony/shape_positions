@@ -59,17 +59,17 @@ To create a circle just pass a point and the radius:
 
 ### Design
 
-There is trait (interface) that declares our system in the traits.scala file:
+There is a trait (interface) that declares our system in the traits.scala file:
 ```scala
     /**
     * Analyzer for position of 2 shapes.
     */
-    trait PositionAnalyzer[T <: Shape] {
+  trait PositionAnalyzer[T <: Shape] {
     def containment(a: T, b: T): Boolean
     def intersection(a: T, b: T): Boolean
     def adjacency (a: T, b: T): Boolean
     def separation(a: T, b: T): Boolean
-    }
+  }
 ```
 We can extend this trait to create an interpreter (an specific implementation) for any Shape we want. 
 Shapes also have a hierarchy, for example, Rectangle extends Quadrilateral and Quadrilateral extends Shape. 
