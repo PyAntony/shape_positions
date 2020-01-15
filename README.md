@@ -43,8 +43,8 @@ public class Test {
 }
 ```
 
-There are 3 ways to instantiate rectangles (Scala syntax):
-- using a Point and Dimensions class (easiest way).
+There are 3 ways to instantiate rectangles:
+- pass a Point and Dimensions class (easiest way).
 - passing 4 Points.
 - passing 4 tuples.  
 For the last 2 you must follow the correct order (positions) specified in the comment bellow:
@@ -57,6 +57,7 @@ For the last 2 you must follow the correct order (positions) specified in the co
   val r2 = Rectangle(Point(0, 4), Point(10, 4), Point(0, 0), Point(10, 0))
   val r3 = Rectangle((0, 4), (10, 4), (0, 0), (10, 0))
 ```
+(These methods relate to Scala syntax, for Java you must use the **new** keyword only.) 
 
 Valid rectangles have 90-degree angles and only vertical or horizontal sides; no diagonal sides allowed.
 To determine the position of the rectangles you can use the RectangleAnalyzer class or 
