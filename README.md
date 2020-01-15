@@ -36,6 +36,9 @@ public class Test {
 
     var circle1 = new Circle(new Point(-3, 2), 10);
     var circle2 = new Circle(new Point(-8, 3), 6);
+    
+    rectangle1.intersects(rectangle2)
+    circle1.isAdjacentTo(circle2)
   }
 }
 ```
