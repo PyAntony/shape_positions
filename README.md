@@ -59,7 +59,7 @@ For the last 2 you must follow the correct order (positions) specified in the co
 ```
 (These methods relate to Scala syntax, for Java you must use the **new** keyword only.) 
 
-Valid rectangles have 90-degrees angles and only vertical or horizontal sides; no diagonal sides allowed.
+Valid rectangles have 90-degrees angles and only vertical or horizontal sides; points should be aligned correctly.
 To determine the position of the rectangles you can use the RectangleAnalyzer class or 
 use the traditional dot notation. Examples:
 ```scala
